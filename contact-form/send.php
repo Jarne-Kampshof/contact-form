@@ -10,7 +10,7 @@ $to = "jkampshof@student.gc-webhosting.nl";
 $subject = "New Contact Form Submission";
 $body = "Name: $name\nEmail: $email\nMessage: $message";
 
-$headers = "From: noreply@student.gc-webhosting.nl";
+$headers = "From: noreply@jkampshof.gc-webhosting.nl";
 
 $headers += "\r\nReply-To: $email";
 
