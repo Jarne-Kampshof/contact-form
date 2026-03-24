@@ -4,13 +4,13 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-$to = "jkampshof@student.gc-webhosting.nl";
+$to = "jarnekampshof@student.gc-webhosting.nl";
 
 // Email settings
 $subject = "New Contact Form Submission";
 $body = "Name: $name\nEmail: $email\nMessage: $message";
 
-$headers = "From: noreply@jkampshof.gc-webhosting.nl";
+$headers = "From: noreply@jarnekampshof.gc-webhosting.nl";
 
 $headers += "\r\nReply-To: $email";
 
