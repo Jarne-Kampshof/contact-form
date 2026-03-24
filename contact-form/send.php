@@ -12,7 +12,7 @@ $body = "Name: $name\nEmail: $email\nMessage: $message";
 
 $headers = "From: noreply@jarnekampshof.gc-webhosting.nl";
 
-$headers += "\r\nReply-To: $email";
+$headers .= "\r\nReply-To: $email";
 
 // Send email
 if (mail($to, $subject, $body, $headers)) {
