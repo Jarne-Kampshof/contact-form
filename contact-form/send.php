@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-$to = "jouwnaam@student.gc-webhosting.nl";
+$to = "jkampshof@student.gc-webhosting.nl";
 
 // Email settings
 $subject = "New Contact Form Submission";
